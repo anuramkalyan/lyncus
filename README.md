@@ -21,7 +21,7 @@ Early development. Building in public as a learning project.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/lyncus.git
+git clone https://github.com/anuramkalyan/lyncus.git
 cd lyncus
 python -m venv .venv
 .venv\Scripts\activate        # Windows  (macOS/Linux: source .venv/bin/activate)

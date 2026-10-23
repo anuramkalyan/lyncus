@@ -13,3 +13,7 @@ reports/
 # Secrets (VirusTotal key later)
 .env
 config.local.*
+
+# OS and editor files
+.DS_Store
+.vscode/

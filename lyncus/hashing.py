@@ -14,7 +14,7 @@ def hash_file(path):
             sha256.update(chunk)
 
     return {
-        md5.hexdigest(),
-        sha1.hexdigest(),
-        sha256.hexdigest()
+        "md5": md5.hexdigest(),
+        "sha1": sha1.hexdigest(),
+        "sha256": sha256.hexdigest()
     }
