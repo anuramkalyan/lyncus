@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Lyncus logo">
+  <!-- Lynx eye: sees inside files. Works on GitHub light and dark themes. -->
+  <defs>
+    <radialGradient id="iris" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </radialGradient>
+    <clipPath id="eye">
+      <path d="M20 120 Q120 30 220 120 Q120 210 20 120 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- background tile -->
+  <rect x="8" y="8" width="224" height="224" rx="52" fill="#0f172a"/>
+  <rect x="8" y="8" width="224" height="224" rx="52" fill="none" stroke="#14b8a6" stroke-width="4"/>
+
+  <!-- hex bytes faintly behind the eye -->
+  <g font-family="Menlo, Consolas, monospace" font-size="15" fill="#14b8a6" opacity="0.28">
+    <text x="30" y="52">4D 5A 90 00 03</text>
+    <text x="30" y="206">50 45 00 00 64</text>
+  </g>
+
+  <!-- eye outline -->
+  <path d="M20 120 Q120 30 220 120 Q120 210 20 120 Z" fill="#e2e8f0"/>
+  <g clip-path="url(#eye)">
+    <circle cx="120" cy="120" r="50" fill="url(#iris)"/>
+    <!-- slit pupil, like a lynx -->
+    <path d="M120 74 Q136 120 120 166 Q104 120 120 74 Z" fill="#0f172a"/>
+    <circle cx="136" cy="100" r="8" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <path d="M20 120 Q120 30 220 120 Q120 210 20 120 Z" fill="none" stroke="#14b8a6" stroke-width="6" stroke-linejoin="round"/>
+</svg>

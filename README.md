@@ -1,10 +1,26 @@
-# Lyncus
+<p align="center">
+  <img src="assets/logo.svg" alt="Lyncus logo" width="160">
+</p>
 
-**Offline malware triage for analysts.** Lyncus inspects a suspicious file
-without running it or uploading it anywhere: it fingerprints it, identifies
-what it really is, and explains how urgently a human should look at it.
+<h1 align="center">Lyncus</h1>
 
-> Named after Lynceus, the Argonaut who could see through solid objects.
+<p align="center">
+  <b>Offline malware triage for analysts.</b><br>
+  Inspect a suspicious file without running it or uploading it anywhere.
+</p>
+
+<p align="center">
+  <a href="https://github.com/anuramkalyan/lyncus/actions/workflows/tests.yml"><img src="https://github.com/anuramkalyan/lyncus/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/github/license/anuramkalyan/lyncus?color=14b8a6" alt="license">
+  <img src="https://img.shields.io/badge/status-early%20development-f59e0b" alt="status">
+</p>
+
+---
+
+Lyncus fingerprints a file, identifies what it really is from its bytes,
+reads Windows executable headers, and explains how urgently a human should
+look at it. Named after Lynceus, the Argonaut who could see through solid objects.
 
 ## Status
 
