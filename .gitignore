@@ -1,5 +1,15 @@
+# Python
 .venv/
 __pycache__/
-*.py[cod]
-.DS_Store
+*.pyc
+.pytest_cache/
+
+# Test files and scan output stay local
+samples/
+reports/
+*.exe
+*.dll
+
+# Secrets (VirusTotal key later)
 .env
+config.local.*
